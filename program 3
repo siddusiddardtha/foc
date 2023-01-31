@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+ int i, arr[5];
+ 
+ /* Reading Array */
+ printf("Enter 5 numbers:\n");
+ for (i=0; i< 5; i++)
+ {
+     printf("arr[%d] = " , i );
+     scanf("%d", &arr[i]);
+ }
+ /* Displaying array content */
+ printf("Array content is:\n");
+ for (i=0; i< 5; i++)
+ {
+     printf("arr[%d] = %d\n", i, arr[i] );
+ }
+ return 0;
+}
